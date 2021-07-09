@@ -137,7 +137,7 @@ var style11 = {
 
 
 	var calles= L.geoJSON(calles4, {
-	style: style2,
+	style: style4,
     onEachFeature: function (feature, layer) {
     layer.bindPopup(feature.properties.name+'</p>');
   }
